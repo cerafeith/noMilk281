@@ -1,0 +1,145 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>No Milk - Shop</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div id="page-wrap">
+            <!--<h2 id="logo"><a href="./home.html">no<br />-->
+            <!--    milk</a></h2>-->
+            <a href="./home.html"><img id="logo" src="./no_milk.png"></a>
+            <div class="nav">
+            <a href="./cart.html"><img src="https://i.imgur.com/2sWphR1.png" style="float:right; height:20px; width:20px;"></a>
+            <a href="./contact.html">Contact</a>
+            <a href="./shop.html" class="active">Shop</a>
+            <a href="./about.html">About</a>
+        </div>
+        <div class="banner">
+        </div>
+        <div class="coffee"><h1>COFFEE</h1></div>
+        <table id="shop">
+            <tr>
+                <td colspan="2"><img src="./trapperCreek.png" style="width: 300px"></td>
+                <td colspan="2"><img src="./frenchRoast.png" style="width: 300px"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Stumptown Coffee</h4>
+                </td>
+                <td>
+                    <h4>15</h4>
+                </td>
+                <td>
+                    <h4>Stumptown Coffee</h4>
+                </td>
+                <td>
+                    <h4>15</h4>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><span style="font-family:lato">Trapper Creek</span></td>
+                <td colspan="2"><span style="font-family:lato">French Roast</span></td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2"><button id="add" onclick="myFunction(this, 'trapperCreek', 1)";>Add to Cart</button></td>
+                    <td colspan="2"><button id="add" onclick="myFunction(this, 'frenchRoast', 1)";>Add to Cart</button></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class=big-display-right>
+		    <span class=big-display-right-line-1>
+	    		Whole Bean Coffee
+	    	</span>
+	    	<img class=display-right-img-l src="./Grinder.png">
+	    	<span class=big-display-right-text>
+	    		Whole bean coffee that is fresh, perfectly </br>
+	    		roasted, and perfect for your favourite grinder. </br>
+	    		Made from a clean, sustainable, and green bean </br>
+	    		farming process.
+    		</span>
+	    </div>
+        <div class="sandwich"><h1>EQUIPMENt</h1></div>
+        <table id="shop">
+            <tr style="text-align:center;">
+                <td colspan="2"><img src="./Aeropress.png" style="width: 300px"></td>
+                <td colspan="2"><img src="./FrenchPress.png" style="width: 300px"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Aeropress</h4>
+                </td>
+                <td>
+                    <h4>30</h4>
+                </td>
+                <td>
+                    <h4>French Press</h4>
+                </td>
+                <td>
+                    <h4>36</h4>
+                </td>
+            </tr>
+            <tr id="description">
+                <td colspan="2"><span style="font-family:lato;">The Aeropress coffee 
+                system is portable, lightweight, and brews a sweet, full-bodied cup.</span></td>
+                <td colspan="2"><span style="font-family:lato">This 8-cup press 
+                produces that is big in flavour, body, and mouthfeel.</span></td>
+            </tr>
+            <tr style="text-align:center;">
+                <td colspan="2"><button id="add" onclick="myFunction(this, 'aeropress', 1)";>Add to Cart</button></td>
+                <td colspan="2"><button id="add" onclick="myFunction(this, 'frenchPress', 1)";>Add to Cart</button></td>
+            </tr>
+            <tr style="text-align:center;">
+                <td colspan="2"><img src="./kit.png" style="width: 300px"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Chemist Brew Kit</h4>
+                </td>
+                <td>
+                    <h4>215</h4>
+            </tr>
+            <tr id="description">
+                <td colspan="2"><span style="font-family:lato;">The Chemist contains
+                every piece of equipment you need to get from beans to brew. Chemex
+                brewer, filters, Baratza Encore Burr Grinder, ceramic mug, Nobavita
+                Gooseneck Kettle, and pocket scale.</span></td>
+            </tr>
+            <tr style="text-align:center;">
+                <td colspan="2"><button id="add" onclick="myFunction(this, 'kit', 1)";>Add to Cart</button></td>
+            </tr>
+        </table>
+        <div class=big-display-left>
+		    <span class=big-display-left-line-1>
+	    		Quality Instruments
+	    	</span>
+	    	<img class=display-left-img-l src="./Brewing.png">
+	    	<span class=big-display-left-text>
+	    		Using the highest quality equipment, we are </br>
+	    		able to pull the most flavourful shots out  </br>
+	    		of our coffee. We try to extend that ability </br>
+	    		to you by offering the best equipment to you  </br>
+	    		at the best prices.
+    		</span>
+	    </div>
+	    <div style="height:150px;"></div>
+        <div class="nav" id="myNav">
+            <h5>Follow us:</h5>
+            <img src="https://i.imgur.com/YaTpD7f.png" style="padding: 25px 0px 0px 25px;"></li>
+            <img src="https://i.imgur.com/fzfnbek.png" style="padding: 25px 0px 0px 25px;"></li>
+            <img src="https://i.imgur.com/FrpgWIP.png" style="padding: 25px 0px 0px 25px;"></li>
+            <a href="./contact.html">Contact</a>
+            <a href="./shop.html" class="active">Shop</a>
+            <a href="./about.html">About</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        initLocalStorage();
+    </script>
+</body>
+
+</html>

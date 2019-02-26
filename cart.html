@@ -1,0 +1,99 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>No Milk - Cart</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css">
+        <script src="./script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="page-wrap">
+            <!--<h2 id="logo"><a href="./home.html">no<br />-->
+            <!--    milk</a></h2>-->
+            <a href="./home.html"><img id="logo" src="./no_milk.png"></a>
+            <div class="nav">
+                <a href="./cart.html" class="active"><img src="https://i.imgur.com/2sWphR1.png" style="float:right; height:20px; width:20px;"></a>
+                <a href="./contact.html">Contact</a>
+                <a href="./shop.html">Shop</a>
+                <a href="./about.html">About</a>
+            </div>
+            <div class="banner"></div>
+            <div class="coffee"><h1>Cart</h1></div>
+            <table class="cart-placeholder">
+                <tr>
+                    <td id="top">Item</td>
+                    <td id="top">Quantity</td>
+                    <td id="top">Price</td>
+                </tr>
+            </table>
+            <div style="margin:auto;text-align:center">
+                <button onClick="emptyCart()">Delete Cart</button>
+            </div>
+            
+            <div class="coffee"><h1>Billing</h1></div>
+            <table id="contact">
+            <tr>
+                <td><input type="text" name="first" placeholder="First Name"></td>
+                <td><input type="text" name="last" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="email" placeholder="Address (Line 1)"></td>
+                <td><input type="text" name="phone" placeholder="Address (Line 2)"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="first" placeholder="City"></td>
+                <td><input type="text" name="last" placeholder="Province/State"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="email" placeholder="Postal/Zip Code"></td>
+                <td><input type="text" name="phone" placeholder="Country"></td>
+            </tr>
+        </table>
+            
+            <div class="sandwich"><h1>Payment</h1></div>
+            <table id="contact">
+            <tr>
+                <td><input type="text" name="first" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="email" placeholder="Credit Card Number"></td>
+                <td style="text-align:center;"><img src="./Mastercard.svg" style="width: 50px">&nbsp;<img src="./Visa.svg" style="width: 50px"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="email" placeholder="Expiry Date"></td>
+                <td><input type="text" name="phone" placeholder="Security Code"></td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2" style="text-align:center"><button>Complete Purchase</button></td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <div class=big-display-left>
+		    <span class=big-display-left-line-1>
+	    		Thank you
+	    	</span>
+	    	<img class=display-left-img-l src="./Thanks.png">
+	    	<span class=big-display-left-text>
+	    		Thank you for supporting your local small </br>
+	    		business. It's because of your support that  </br>
+	    		we're able to continue to serve and promote </br>
+	    		quality, local products.
+    		</span>
+	    </div>
+	    <div style="height:150px;"></div>
+            <div class="nav" id="myNav">
+                <h5>Follow us:</h5>
+                <img src="https://i.imgur.com/YaTpD7f.png" style="padding: 25px 0px 0px 25px;"></li>
+                <img src="https://i.imgur.com/fzfnbek.png" style="padding: 25px 0px 0px 25px;"></li>
+                <img src="https://i.imgur.com/FrpgWIP.png" style="padding: 25px 0px 0px 25px;"></li>
+                <a href="./contact.html">Contact</a>
+                <a href="./shop.html">Shop</a>
+                <a href="./about.html">About</a>
+            </div>
+        </div>
+        <script>
+            getAllItems();
+        </script>
+    </body>
+</html>
